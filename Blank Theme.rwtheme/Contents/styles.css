@@ -828,3 +828,32 @@ p.exif-user-comment {
 }
 
 /* @end */
+
+/* @group Disqus */
+/* This group is used to forcibly over-ride the styles that Disqus commenting (used in RapidWeaver 4+) applies and breaks the page layout. It's likely you'll need to use it, however it's not an ideal solution and may not work in the future if Disqus' JS-inserted markup changes. */
+#dsq-comments-title {
+	clear:none !important;
+} 
+
+#dsq-content .dsq-options {
+	clear:none !important;
+}
+
+#dsq-thread-settings  {
+	clear:none !important;
+}
+
+#dsq-content div {
+	clear:none !important;
+}
+
+.dsq-login-buttons li {
+	clear:none !important;
+	margin-bottom: 25px!important;
+}
+
+.dsq-button {
+	float:none ! important;
+}
+
+/* @end */
