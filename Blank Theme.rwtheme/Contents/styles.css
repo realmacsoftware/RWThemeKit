@@ -803,3 +803,28 @@ p.exif-user-comment {
 .form-input-button { 
 } 
 /* @end */
+
+/* @group Sitemap */
+
+.rw-sitemap ul {
+}
+
+.rw-sitemap ul li {
+}
+
+.rw-sitemap ul li:last-child {
+}
+
+.rw-sitemap ul li li {
+}
+
+.rw-sitemap ul li li:last-child {
+}
+
+.rw-sitemap ul ul {
+}
+
+.rw-sitemap ul ul ul {
+}
+
+/* @end */
