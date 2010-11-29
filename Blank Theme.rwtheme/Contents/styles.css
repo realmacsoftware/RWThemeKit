@@ -1,19 +1,23 @@
 /* @group General Styles */
 
 body {
+	
 }
 
 p {
+	
 }
 
 b, strong {
-
+	
 }
 
 a:link, a:visited {
+	
 }
 
 a:hover, a:active {
+	
 }
 
 img {
@@ -27,12 +31,13 @@ img {
 .image-right {
 	float: right;
 }
-	
+
 /* @end */
 
 /* @group Layout */
 
 #container {
+	
 }
 
 .clearer {
@@ -40,63 +45,81 @@ img {
 }
 
 #pageHeader {
+	
 }
 
 #pageHeader img {
+	
 }
 
 #pageHeader h1 {
+	
 }
 
 #pageHeader h2 {
+	
 }
 
 #contentContainer {
+	
 }
 
 #contentContainer #content {
+	
 }
 
 #sidebarContainer {
+	
 }
 
 #sidebarContainer #sidebar {
+	
 }
 
 #sidebarContainer .sideHeader {
+	
 }
 
-#footer { 
+#footer {
+	
 }
 
 #footer p {
+	
 }
 
 #footer a:link, #footer a:visited {
+	
 }
 
 #footer a:hover, #footer a:active {
-}
 	
+}
+
 /* @end */
 
 /* @group Bread-crumb */
 
 #breadcrumbcontainer {
+	
 }
 
 #breadcrumbcontainer ul {
+	
 }
 
 #breadcrumbcontainer li {
+	
 }
 
 #breadcrumbcontainer a {
+	
 }
 
 #breadcrumbcontainer a:hover {
-}
 	
+}
+
 /* @end */
 
 /* @group Toolbar */
@@ -104,113 +127,147 @@ img {
 /* Toolbar Styles */
 
 #navcontainer {
+	
 }
 
 #navcontainer #current {
+	
 }
 
 #navcontainer #current:hover {
+	
 }
 
 #navcontainer .currentAncestor {
+	
 }
 
 /* Parent - Level 0 */
 
-#navcontainer ul{
+#navcontainer ul {
+	
 }
 
 #navcontainer li {
+	
 }
 
 #navcontainer a {
+	
 }
 
 #navcontainer a:hover {
+	
 }
 
 #navcontainer a:active {
+	
 }
 
 /* Child - Level 1 */
 
 #navcontainer ul ul {
+	
 }
 
 #navcontainer ul ul li {
+	
 }
 
 #navcontainer ul ul a {
+	
 }
 
-#navcontainer ul ul a:hover{
+#navcontainer ul ul a:hover {
+	
 }
 
-#navcontainer ul ul #current{
+#navcontainer ul ul #current {
+	
 }
 
 #navcontainer ul ul .currentAncestor {
+	
 }
 
 /* Child - Level 2 */
 
 #navcontainer ul ul ul {
+	
 }
 
-#navcontainer ul ul ul li { 
+#navcontainer ul ul ul li {
+	
 }
 
-#navcontainer ul ul ul a{
+#navcontainer ul ul ul a {
+	
 }
 
-#navcontainer ul ul ul a:hover{
+#navcontainer ul ul ul a:hover {
+	
 }
 
-#navcontainer ul ul ul #current{
+#navcontainer ul ul ul #current {
+	
 }
 
 #navcontainer ul ul ul .currentAncestor {
+	
 }
+
 /* Child Level 3 */
 
 #navcontainer ul ul ul {
+	
 }
 
-#navcontainer ul ul ul ul li { 
+#navcontainer ul ul ul ul li {
+	
 }
 
-#navcontainer ul ul ul ul a{
+#navcontainer ul ul ul ul a {
+	
 }
 
-#navcontainer ul ul ul ul a:hover{
+#navcontainer ul ul ul ul a:hover {
+	
 }
 
 /* Child Level 4 */
 
 #navcontainer ul ul ul ul {
+	
 }
 
-#navcontainer ul ul ul ul ul li { 
+#navcontainer ul ul ul ul ul li {
+	
 }
 
-#navcontainer ul ul ul ul ul a{
+#navcontainer ul ul ul ul ul a {
+	
 }
 
-#navcontainer ul ul ul ul ul a:hover{
+#navcontainer ul ul ul ul ul a:hover {
+	
 }
 
 /* Child Level 5 */
 
 #navcontainer ul ul ul ul ul {
+	
 }
 
-#navcontainer ul ul ul ul ul ul li { 
+#navcontainer ul ul ul ul ul ul li {
+	
 }
 
-#navcontainer ul ul ul ul ul ul a{
+#navcontainer ul ul ul ul ul ul a {
+	
 }
 
-#navcontainer ul ul ul ul ul ul a:hover{
+#navcontainer ul ul ul ul ul ul a:hover {
+	
 }
 
 /* @end */
@@ -218,30 +275,37 @@ img {
 /* @group Global Classes */
 
 blockquote, .standout {
+	
 }
 
 h1 {
+	
 }
 
 h2 {
+	
 }
 
 h3 {
+	
 }
 
 h4 {
+	
 }
 
 .imageStyle {
+	
 }
 
-
-
 /* Main content area unordered list styles */
+
 #contentContainer #content ul {
+	
 }
 
 #contentContainer #content li {
+	
 }
 
 ul.disc {
@@ -277,25 +341,29 @@ ol.lower-roman {
 }
 
 /* Sidebar area unordered list styles */
+
 #sidebarContainer #sidebar ul {
+	
 }
 
 #sidebarContainer #sidebar li {
+	
 }
-
 
 /* Table Styles */
+
 table {
+	
 }
+
 /* @end */
 
 /* @group Blog */
 
 /* @group Tag Cloud */
 
-
 ul.blog-tag-cloud {
-
+	
 }
 
 ul.blog-tag-cloud li {
@@ -303,57 +371,58 @@ ul.blog-tag-cloud li {
 }
 
 #sidebarContainer #sidebar ul.blog-tag-cloud li a {
+	
 }
 
 #sidebarContainer #sidebar ul.blog-tag-cloud li a:hover {
 	text-decoration: underline;
 }
 
-.blog-tag-size-1 {	
+.blog-tag-size-1 {
 	font-size: 0.8em;
 }
 
-.blog-tag-size-2 {	
+.blog-tag-size-2 {
 	font-size: 0.85em;
 }
 
-.blog-tag-size-3 {	
+.blog-tag-size-3 {
 	font-size: 0.9em;
 }
 
-.blog-tag-size-4 {	
+.blog-tag-size-4 {
 	font-size: 0.95em;
 }
 
-.blog-tag-size-5 {	
+.blog-tag-size-5 {
 	font-size: 1em;
 }
 
-.blog-tag-size-6 {	
+.blog-tag-size-6 {
 	font-size: 1.05em;
 }
 
-.blog-tag-size-7 {	
+.blog-tag-size-7 {
 	font-size: 1.1em;
 }
 
-.blog-tag-size-8 {	
+.blog-tag-size-8 {
 	font-size: 1.15em;
 }
 
-.blog-tag-size-9 {	
+.blog-tag-size-9 {
 	font-size: 1.2em;
 }
 
-.blog-tag-size-10 {	
+.blog-tag-size-10 {
 	font-size: 1.25em;
 }
 
-.blog-tag-size-11 {	
+.blog-tag-size-11 {
 	font-size: 1.3em;
 }
 
-.blog-tag-size-12 {	
+.blog-tag-size-12 {
 	font-size: 1.35em;
 }
 
@@ -361,7 +430,7 @@ ul.blog-tag-cloud li {
 	font-size: 1.4em;
 }
 
-.blog-tag-size-14 {	
+.blog-tag-size-14 {
 	font-size: 1.45em;
 }
 
@@ -369,15 +438,15 @@ ul.blog-tag-cloud li {
 	font-size: 1.5em;
 }
 
-.blog-tag-size-16 {	
+.blog-tag-size-16 {
 	font-size: 1.55em;
 }
 
-.blog-tag-size-17 {	
+.blog-tag-size-17 {
 	font-size: 1.6em;
 }
 
-.blog-tag-size-18 {	
+.blog-tag-size-18 {
 	font-size: 1.65em;
 }
 
@@ -385,94 +454,130 @@ ul.blog-tag-cloud li {
 	font-size: 1.7em;
 }
 
-.blog-tag-size-20 {	
+.blog-tag-size-20 {
 	font-size: 1.75em;
 }
+
 /* @end */
 
 /* @group Archive Page */
 
 .blog-archive-background {
+	
 }
 
 .blog-entry-summary {
+	
 }
-.blog-archive-headings-wrapper {
+
+.blog-archive-headings-wrapper {
+	
 }
 
 .blog-archive-entries-wrapper {
+	
 }
 
 .blog-archive-entries-wrapper .blog-entry {
-}.blog-archive-month {
+	
+}
+
+.blog-archive-month {
+	
 }
 
 .blog-archive-link {
-}.blog-archive-link a:link, .blog-archive-link a:visited {
-}
 	
+}
+
+.blog-archive-link a:link, .blog-archive-link a:visited {
+	
+}
+
 /* @end */
 
 .blog-entry {
+	
 }
 
 h1.blog-entry-title {
+	
 }
 
-
 h1.blog-entry-title a {
+	
 }
 
 .blog-entry-date {
+	
 }
 
 /*styles the category link in the main entry */
+
 .blog-entry-category {
+	
 }
 
 .blog-entry-category a:link, .blog-entry-category a:visited {
+	
 }
 
 .blog-read-more {
+	
 }
 
 .blog-entry-body {
+	
 }
 
 .blog-entry-comments {
+	
 }
 
 p.blog-entry-tags {
+	
 }
 
 /* styles the archives in the blog sidebar */
+
 #blog-archives {
+	
 }
 
 .blog-archive-link-enabled {
+	
 }
 
 .blog-archive-link-disabled {
+	
 }
 
 /* Styles the blog categories in the blog sidebar */
+
 #blog-categories {
+	
 }
 
 .blog-category-link-enabled {
+	
 }
 
 .blog-category-link-disabled {
+	
 }
 
 /* Styles the blog RSS feeds in the blog sidebar */
+
 #blog-rss-feeds {
+	
 }
 
 .blog-rss-link {
+	
 }
 
 .blog-comments-rss-link {
+	
 }
 
 /* @end */
@@ -480,21 +585,27 @@ p.blog-entry-tags {
 /* @group File Sharing */
 
 .filesharing-description {
+	
 }
 
 .filesharing-item {
+	
 }
 
 .filesharing-item-title a:link {
+	
 }
 
 .filesharing-item-title a:hover {
+	
 }
 
 .filesharing-item-title a:visited {
+	
 }
 
 .filesharing-item-description {
+	
 }
 
 /* @end */
@@ -504,257 +615,339 @@ p.blog-entry-tags {
 /* @group Index Page (Thumbnail view) */
 
 .album-title {
+	
 }
 
 .album-description {
+	
 }
 
-
 .album-wrapper {
+	
 }
 
 .thumbnail-wrap {
+	
 }
 
 .thumbnail-frame {
+	
 }
 
 .thumbnail-frame:hover {
+	
 }
 
 .thumbnail-frame a {
+	
 }
 
 .thumbnail-frame a:hover {
+	
 }
 
 .thumbnail-frame img {
+	
 }
 
 .thumbnail-caption {
-}
 	
+}
+
 /* @end */
 
 /* @group Single Page (Photo view) */
 
 .photo-background {
+	
 }
 
 .photo-navigation {
+	
 }
 
 .photo-links {
+	
 }
 
 .photo-navigation a:link, .photo-navigation a:visited {
+	
 }
 
 .photo-navigation a:hover {
+	
 }
 
-.photo-frame{
+.photo-frame {
+	
 }
 
 .photo-title {
+	
 }
 
 .photo-caption {
+	
 }
 
 /* @group EXIF data */
+
 /* Data wrapper */
+
 .exif-data {
+	
 }
 
 .exif-data p {
+	
 }
 
 /* p tag classes for all exif data */
+
 p.exif-version {
+	
 }
 
 p.exif-colour-space {
+	
 }
 
 p.exif-focal-length {
+	
 }
 
 p.exif-dimensions {
+	
 }
 
 p.exif-pixel-y-dimension {
+	
 }
 
 p.exif-pixel-x-dimension {
+	
 }
 
 p.exif-oecf-value {
+	
 }
 
 p.exif-subsec-time-original {
+	
 }
 
 p.exif-exposure-mode {
+	
 }
 
 p.exif-spatial-frequency-response {
+	
 }
 
 p.exif-scene-capture-type {
+	
 }
 
 p.exif-subject-location {
+	
 }
 
 p.exif-shutter-speed {
+	
 }
 
 p.exif-datetime-original {
+	
 }
 
 p.exif-subsec-time {
+	
 }
 
 p.exif-compressed-bits-per-pixel {
+	
 }
 
 p.exif-flash-energy {
+	
 }
 
 p.exif-saturation {
+	
 }
 
 p.exif-brightness {
+	
 }
 
 p.exif-exposure-time {
+	
 }
 
 p.exif-f-number {
+	
 }
 
 p.exif-file-source {
+	
 }
 
 p.exif-gain-control {
+	
 }
 
 p.exif-subject-area {
+	
 }
 
 p.exif-cfa-pattern {
+	
 }
 
 p.exif-scene-type {
+	
 }
 
 p.exif-white-balance {
+	
 }
 
 p.exif-flash {
+	
 }
 
 p.exif-exposure-index {
+	
 }
 
 p.exif-flashpix-version {
+	
 }
 
 p.exif-device-setting-description {
+	
 }
 
 p.exif-focalplane-x-resolution {
+	
 }
 
 p.exif-image-uniqueid {
+	
 }
 
 p.exif-components-configuration {
+	
 }
 
 p.exif-light-source {
+	
 }
 
 p.exif-sensing-method {
+	
 }
 
 p.exif-aperture {
+	
 }
 
 p.exif-sharpness {
+	
 }
 
 p.exif-exposure-program {
+	
 }
 
 p.exif-subject-distance {
+	
 }
 
 p.exif-subsec-time-digitized {
+	
 }
 
 p.exif-contrast {
+	
 }
 
 p.exif-focalplane-resolution-unit {
+	
 }
 
 p.exif-gamma {
+	
 }
 
 p.exif-35mm-focal-length {
+	
 }
 
 p.exif-datetime-digitized {
+	
 }
 
 p.exif-subject-distance-range {
+	
 }
 
 p.exif-custom-rendered {
+	
 }
 
 p.exif-max-aperture {
+	
 }
 
 p.exif-sound-file {
+	
 }
 
 p.exif-metering-mode {
+	
 }
 
 p.exif-spectral-sensitivity {
+	
 }
 
 p.exif-exposure-bias {
+	
 }
 
 p.exif-focalplane-y-resolution {
+	
 }
 
 p.exif-iso-rating {
+	
 }
 
 p.exif-maker-note {
+	
 }
 
 p.exif-digital-zoom-ratio {
+	
 }
 
 p.exif-user-comment {
+	
 }
+
 /* @end */
 
 /* @end */
-	
+
 /* @end */
 
 /* @group Quicktime Page */
 
 .movie-description {
-}
 	
+}
+
 /* @end */
 
 /* @group Quicktime Album */
@@ -762,98 +955,124 @@ p.exif-user-comment {
 /* @group Index Page (Movie Thumbnail view) */
 
 .movie-page-title {
-}.movie-page-description {
-}.movie-thumbnail-frame {
+	
+}
+
+.movie-page-description {
+	
+}
+
+.movie-thumbnail-frame {
+	
 }
 
 .movie-thumbnail-frame:hover {
+	
 }
 
 .movie-thumbnail-caption {
-}
 	
+}
+
 /* @end */
 
 /* @group Single Page (Movie View) */
 
 .movie-background {
+	
 }
 
 .movie-title {
+	
 }
 
 .movie-frame {
-}
 	
-/* @end */
+}
 
+/* @end */
 
 /* @end */
 
 /* @group Contact Form */
-.message-text { 
-} 
+
+.message-text {
+	
+}
 
 .required-text {
-} 
+	
+}
 
 .form-input-field {
-} 
+	
+}
 
-.form-input-button { 
-} 
+.form-input-button {
+	
+}
+
 /* @end */
 
 /* @group Sitemap */
 
 .rw-sitemap ul {
+	
 }
 
 .rw-sitemap ul li {
+	
 }
 
 .rw-sitemap ul li:last-child {
+	
 }
 
 .rw-sitemap ul li li {
+	
 }
 
 .rw-sitemap ul li li:last-child {
+	
 }
 
 .rw-sitemap ul ul {
+	
 }
 
 .rw-sitemap ul ul ul {
+	
 }
 
 /* @end */
 
 /* @group Disqus */
-/* This group is used to forcibly over-ride the styles that Disqus commenting (used in RapidWeaver 4+) applies and breaks the page layout. It's likely you'll need to use it, however it's not an ideal solution and may not work in the future if Disqus' JS-inserted markup changes. */
-#dsq-comments-title {
-	clear:none !important;
-} 
 
-#dsq-content .dsq-options {
-	clear:none !important;
+/* This group is used to forcibly over-ride the styles that Disqus commenting (used in RapidWeaver 4+) applies and breaks the page layout. It's likely you'll need to use it, however it's not an ideal solution and may not work in the future if Disqus' JS-inserted markup changes. */
+
+#dsq-comments-title {
+	clear: none !important;
 }
 
-#dsq-thread-settings  {
-	clear:none !important;
+#dsq-content .dsq-options {
+	clear: none !important;
+}
+
+#dsq-thread-settings {
+	clear: none !important;
 }
 
 #dsq-content div {
-	clear:none !important;
+	clear: none !important;
 }
 
 .dsq-login-buttons li {
-	clear:none !important;
+	clear: none !important;
 	margin-bottom: 25px!important;
 }
 
 .dsq-button {
-	float:none ! important;
+	float: none ! important;
 }
 
 /* @end */
