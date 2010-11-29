@@ -1046,9 +1046,11 @@ p.exif-user-comment {
 
 /* @end */
 
-/* @group Disqus */
+/* @group Blog Comments */
 
-/* This group is used to forcibly over-ride the styles that Disqus commenting (used in RapidWeaver 4+) applies and breaks the page layout. It's likely you'll need to use it, however it's not an ideal solution and may not work in the future if Disqus' JS-inserted markup changes. */
+/* These groups are used to forcibly over-ride the styles that Disqus and JS-KIT comments apply that break page layouts. It's likely you'll need to use them, however they're not ideal solutions and may not work in the future if the comment providers' Javascript-inserted markup changes. */
+
+/* @group Disqus */
 
 #dsq-comments-title {
 	clear: none !important;
@@ -1074,5 +1076,53 @@ p.exif-user-comment {
 .dsq-button {
 	float: none ! important;
 }
+
+/* @end */
+
+/* @group JS-Kit Override */
+
+.js-singleCommentBodyT {
+	display: block;
+	padding-top: 17px !important;
+
+}
+
+.js-singleCommentHeader {
+	padding: 0 8px !important;
+}
+
+.js-OldComments,
+.js-commentFieldLabel,
+.js-pmFieldLabel,
+.js-singleCommentBody,
+.js-singleCommentKarmaComMod,
+.js-commentBodyLabel,
+.js-commentCmtTextarea,
+.js-commentAvatarArea,
+.js-OldCommentsWrap,
+.js-OldComments,
+.js-CreateCommentFieldsWrap,
+.js-CreateCommentFields,
+.js-commentCmtTextarea,
+.js-kit-comments div {
+	clear: none !important;
+}
+
+.js-singleCommentText {
+	display: block !important;
+	clear: both !important;
+}
+
+.js-kit-comments br {
+	display: none !important;
+}
+
+.js-singleCommentBody br {
+	display: block !important;
+}
+
+/* @end */
+
+
 
 /* @end */
