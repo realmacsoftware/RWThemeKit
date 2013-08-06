@@ -1,9 +1,15 @@
-#RWThemeKit SDK v0.1
-##Created by Nik Fletcher, Monday 29th November 2010
+#RapidWeaver Theme SDK v6.0
+*Updated on Tuesday 6th August 2013*
+*This is preliminary information, and subject to change prior to the launch of RapidWeaver 6*
 
-As of the current HEAD, the SDK consists of two files:
+This README describes solely the changes to the RWThemeKit SDK for RapidWeaver v6. For full reference, please refer to `documentation.markdown` in this repository.
 
-- Example theme with all relevant classes added for the RapidWeaver 5.0 sitemap.
-- RapidWeaver 4.x Theme SDK PDF tutorial.
+##Deprecations
 
-We will be moving this documentation to a more SCM-friendly format (Markdown) in due course.
+Starting in RapidWeaver 6, the `%toolbar%` key is considered deprecated. Instead, developers should move to use `%navigation%`. `%navigation%` functions exactly as `%toolbar%` does.
+
+##New Additions
+RapidWeaver 6 introduces the ability for themes to offer split navigation.
+
+`%top_navigation%` returns an unordered list of just the top-level of the page hierarchy.
+`%subnavigation%` returns an unordered list of the remaining sub-navigation of the hierarchy, and respects the `RWAlwaysDisplayFullNavigation` key.

@@ -1,8 +1,8 @@
-#RWThemeKit SDK v1.0
-Last Updated: Thursday 20th June 2013
+#RWThemeKit SDK v6.0
+*Updated on Tuesday 6th August 2013*
 
 
-#RapidWeaver Syntax TagsThe following tags are converted by RapidWeaver into the appropriate content. These tags should be added to the template file of your theme, usually index.html.
+#RapidWeaver Syntax TagsThe following tags are converted by RapidWeaver into the appropriate content. These tags should be added to the template file of your theme, which we recommend is named  index.html.
 
 #Header Syntax
 
@@ -24,11 +24,11 @@ Last Updated: Thursday 20th June 2013
 
 ###%toolbar%Outputs the site navigation as an unorded list.
 
-###%top_navigation%  *[NEW]* 
-Outputs top level navigation. 
+###%top_navigation%
+**New in RapidWeaver 6.0** Outputs an unordered list of just the top-level of the page hierarchy.
 
-###%sub_navigation%  *[NEW]* 
-Outputs sub level navigation.
+###%sub_navigation%
+**New in RapidWeaver 6.0** Outputs an unordered list of the remaining sub-navigation of the hierarchy, and respects the RWAlwaysDisplayFullNavigation key. 
 
 #Body Syntax
 
@@ -52,9 +52,12 @@ Outputs sub level navigation.
 
 #Extras
 
-###%pathto(file.extension)%Used for site consolidation. This can be used for any file (styles.css for example), however the file must be added to the RWCopyFiles array in the theme.plist.
+###%pathto(file.extension)%
+The `%pathto()%` syntax should be used to refer to any global assets in the theme. This will generate the appropriate relative, absolute or relative to DOCROOT link to the relevant file. Its primary use is to refer to stylesheets and javascript files that are used across the site.
 
-###%base_url%Outputs the base URL.
+`%pathto()%` can be used for any file (styles.css for example), however the file must be added to the RWCopyFiles array in the theme.plist file.
+
+###%base_url%Outputs the root web address of the website, as entered in the Site Setup area.
 
 ###%last_published%Outputs the last published date.
 
