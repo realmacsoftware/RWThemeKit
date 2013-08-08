@@ -1,5 +1,5 @@
 #RWThemeKit SDK v6.0
-*Updated on Tuesday 6th August 2013*
+*Updated on Thursday 8th August 2013*
 
 
 #RapidWeaver Syntax Tags
