@@ -12,4 +12,9 @@ Starting in RapidWeaver 6, the `%toolbar%` key is considered deprecated. Instead
 RapidWeaver 6 introduces the ability for themes to offer split navigation.
 
 `%top_navigation%` returns an unordered list of just the top-level of the page hierarchy.
-`%subnavigation%` returns an unordered list of the remaining sub-navigation of the hierarchy, and respects the `RWAlwaysDisplayFullNavigation` key.
+`%sub_navigation%` returns an unordered list of the remaining sub-navigation of the hierarchy, and respects the `RWAlwaysDisplayFullNavigation` key.
+
+##Targeting RapidWeaver 6
+As the new %navigation% tags are only available in RapidWeaver 6, to ensure that themes are only installed in versions of RapidWeaver that support this feature, RapidWeaver supports the .rapidweavertheme file extension *in addition to the legacy .rwtheme extension*.
+
+We strongly encourage themes to use the latest RapidWeaver Theme SDK conventions and features, and whilst RapidWeaver 6.x will support .rwtheme files this file format should be considered deprecated and may be removed in the longer term.
