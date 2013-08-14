@@ -24,6 +24,53 @@
 				<key>GroupDisplayName</key>
 				<dict>
 					<key>de</key>
+					<string>Advanced Options</string>
+					<key>en</key>
+					<string>Advanced Options</string>
+					<key>fr</key>
+					<string>Advanced Options</string>
+					<key>it</key>
+					<string>Advanced Options</string>
+					<key>ja</key>
+					<string>Advanced Options</string>
+				</dict>
+				<key>GroupMembers</key>
+				<array>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>de</key>
+							<string>Custom Stylesheet</string>
+							<key>en</key>
+							<string>Custom Stylesheet</string>
+							<key>fr</key>
+							<string>Custom Stylesheet</string>
+							<key>it</key>
+							<string>Custom Stylesheet</string>
+							<key>ja</key>
+							<string>Custom Stylesheet</string>
+						</dict>
+						<key>Enabled</key>
+						<true/>
+						<key>Files</key>
+						<array>
+							<string>css/custom.css</string>
+						</array>
+						<key>Name</key>
+						<string>Custom Stylesheet</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+				</array>
+				<key>GroupName</key>
+				<string>Advanced Options</string>
+				<key>GroupSelectionLimit</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>GroupDisplayName</key>
+				<dict>
+					<key>de</key>
 					<string>German Option Group Name</string>
 					<key>en</key>
 					<string>English Option Group Name</string>
@@ -197,8 +244,6 @@
 	</array>
 	<key>RWThemeName</key>
 	<string>My Theme</string>
-	<key>RWThemeShippedInVersion</key>
-	<string>4.0</string>
 	<key>RWThemeShortName</key>
 	<string>mytheme</string>
 	<key>RWVersion</key>
