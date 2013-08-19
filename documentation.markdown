@@ -1,5 +1,5 @@
 #RWThemeKit SDK v6.0
-*Updated on Friday 9th August 2013*
+*Updated on Monday 19th August 2013*
 
 #RapidWeaver Theme File Type
 Given that there are non-backwards compatible additions to the RapidWeaver theme format in RapidWeaver 6.0, the new `rapidweavertheme` extension is the way to ensure that your themes install *solely* in a version of RapidWeaver that supports these additions.
