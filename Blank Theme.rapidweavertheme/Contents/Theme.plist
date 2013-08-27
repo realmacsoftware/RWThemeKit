@@ -246,6 +246,8 @@
 	<string>My Theme</string>
 	<key>RWThemeShortName</key>
 	<string>mytheme</string>
+	<key>RWAddonSupportURLString</key>
+	<string>http://www.website.com</string>
 	<key>RWVersion</key>
 	<integer>1</integer>
 </dict>

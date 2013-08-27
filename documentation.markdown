@@ -1,5 +1,5 @@
 #RWThemeKit SDK v6.0
-*Updated on Monday 19th August 2013*
+*Updated on Tuesday 27th August 2013*
 
 #RapidWeaver Theme File Type
 Given that there are non-backwards compatible additions to the RapidWeaver theme format in RapidWeaver 6.0, the new `rapidweavertheme` extension is the way to ensure that your themes install *solely* in a version of RapidWeaver that supports these additions.
@@ -7,6 +7,10 @@ Given that there are non-backwards compatible additions to the RapidWeaver theme
 There is no way to ship a theme that supports RapidWeaver ≤5 and the new `%navigation%` tags.
 
 The `rwtheme` file type will remain supported by RapidWeaver 6.x, but should be considered deprecated and may be removed in the longer term.
+
+# Theme.plist Updates
+
+RapidWeaver 6 adds a new `RWAddonSupportURLString` key in the theme PLIST. This key is required for all themes and should be a website address that customers can visit for support with the theme. This key is new in RapidWeaver 6 and required for all themes submitted to the Addons area.
 
 #RapidWeaver Syntax Tags
 The following tags are converted by RapidWeaver into the appropriate content. These tags should be added to the template file of your theme, which we recommend is named `index.html`.
