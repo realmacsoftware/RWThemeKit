@@ -1,5 +1,5 @@
 #RWThemeKit SDK v6.0
-*Updated on Tuesday 27th August 2013*
+*Updated on Monday 2nd September 2013*
 
 #RapidWeaver Theme File Type
 Given that there are non-backwards compatible additions to the RapidWeaver theme format in RapidWeaver 6.0, the new `rapidweavertheme` extension is the way to ensure that your themes install *solely* in a version of RapidWeaver that supports these additions.
@@ -89,7 +89,7 @@ The `%pathto()%` syntax should be used to refer to any global assets in the them
 `%pathto()%` can be used for any file (styles.css for example), however the file must be added to the RWCopyFiles array in the theme.plist file.
 
 ###%base_url%
-Outputs the root web address of the website, as entered in the Site Setup area.
+Outputs the web address of the website, as entered in the Site Setup area.
 
 ###%last_published%
 Outputs the last published date - this is not currently customisable in its appearance.
@@ -99,6 +99,8 @@ Outputs the user’s e-mail address.
 
 #Colourtags
 
+Colourtags allow customers to customise a particular colour value in your theme using the OS X colour picker. The colour values from a colourtag must currently be set via a separate stylesheet (normally called colours.css or colourtags.css) This style sheet must be included in the `RWColourTagCSSFiles` array in the theme.plist, to indicate to RapidWeaver that the colours should be substituted.
+
 ###%colour...%
 eg. %colour_header_background%
-This will be replaced by a colour specified in the theme.plist. This should be placed in an external style sheet. The style sheet should be included in the RWColourTagCSSFiles array in the theme.plist. There is no restriction on how many colour tags you can use. You may also use the same tag multiple times.
+Each tag used be replaced by a colour specified in the theme.plist There are no restrictions placed on the number of colour tags you can use, and you may also use the same tag multiple times. As noted above, all colourtags need to be placed in a specific stylesheet, and explicitly referenced in your theme’s PLIST.
