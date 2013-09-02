@@ -1,7 +1,7 @@
 #RapidWeaver Theme SDK v6.0
 *This is preliminary information, and subject to change prior to the launch of RapidWeaver 6*
 
-This README describes solely the changes to the RWThemeKit SDK for RapidWeaver v6. For full reference, please refer to `documentation.markdown` in this repository.
+This README describes solely the changes to the RWThemeKit SDK for RapidWeaver v6. For full reference, please refer to the [documentation](documentation.markdown) contained in this repository.
 
 ##Deprecations
 
