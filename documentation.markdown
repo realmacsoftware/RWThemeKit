@@ -9,7 +9,7 @@ The `rwtheme` file type will remain supported by RapidWeaver 6.x, but should be 
 
 # Theme.plist Updates
 
-RapidWeaver 6 adds a new `RWAddonSupportURLString` key in the theme PLIST. This key is required for all themes and should be a website address that customers can visit for support with the theme. This backwards-compatible key is new in RapidWeaver 6 and required for all themes submitted to the [Realmac Addons](http://www.realmacsoftware.com/addons) area.
+RapidWeaver 6 adds a new `RWAddonSupportURL` key in the theme PLIST. This key is required for all themes and should be a website address that customers can visit for support with the theme. This backwards-compatible key is new in RapidWeaver 6 and required for all themes submitted to the [Realmac Addons](http://www.realmacsoftware.com/addons) area.
 
 #RapidWeaver Syntax Tags
 The following tags are converted by RapidWeaver into the appropriate content. These tags should be added to the template file of your theme, which we recommend is named `index.html`.
