@@ -209,6 +209,8 @@
 	</dict>
 	<key>RWThemeAuthor</key>
 	<string>Theme Author</string>
+	<key>RWAddonAuthor</key>
+	<string>Theme Author</string>
 	<key>RWThemeCapabilities</key>
 	<dict>
 		<key>RWSupportsContentOnlySubPages</key>

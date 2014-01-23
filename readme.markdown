@@ -7,6 +7,8 @@ This README describes solely the changes to the RWThemeKit SDK for RapidWeaver v
 
 Starting in RapidWeaver 6, the `%toolbar%` key is considered deprecated. Instead, developers should move to use `%navigation%`. `%navigation%` displays the same data as `%toolbar%` would previously.
 
+The RWThemeAuthor key is deprecated, and you should use RWAddonAuthor for your Developer Name.
+
 ##New Additions
 RapidWeaver 6 introduces the ability for themes to offer split navigation.
 
