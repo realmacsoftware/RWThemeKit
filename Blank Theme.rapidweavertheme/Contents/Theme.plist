@@ -200,10 +200,16 @@
 		<integer>2</integer>
 		<key>RWToolbarItemCurrent</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<key>RWToolbarItemCurrentParent</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot; class=&quot;parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemCurrentAncestor</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<key>RWToolbarItemCurrentAncestorParent</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarItemNormal</key>
 		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<key>RWToolbarItemNormalParent</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;parent&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
 		<key>RWToolbarList</key>
 		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
 	</dict>
