@@ -15,7 +15,7 @@ RapidWeaver 6 introduces the ability for themes to offer split navigation.
 `%top_navigation%` returns an unordered list of just the top-level of the page hierarchy.
 `%sub_navigation%` returns an unordered list of the remaining sub-navigation of the hierarchy, and respects the `RWAlwaysDisplayFullNavigation` key.
 
-The `RWToolbarItem` Theme PLIST keys now offer a new “Parent” variation that allows you to specify the markup for the navigation menu when the page has subpages (i.e. is a parent page). For examples, check [this commit](https://github.com/realmacsoftware/RWThemeKit/commit/07ba4e71597fc82bdc1abfd8085820e4ca1a3f4d)
+The `RWToolbarItem` Theme PLIST keys now offer a new “Parent” variation that allows you to specify the markup for the navigation menu when the page has subpages (i.e. is a parent page). For examples, check [this commit](https://github.com/realmacsoftware/RWThemeKit/commit/07ba4e71597fc82bdc1abfd8085820e4ca1a3f4d).
 
 ##Targeting RapidWeaver 6
 As the new %navigation% tags are only available in RapidWeaver 6, to ensure that themes are only installed in versions of RapidWeaver that support this feature, RapidWeaver supports the .rapidweavertheme file extension *in addition to the legacy .rwtheme extension*.
