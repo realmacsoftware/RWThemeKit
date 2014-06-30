@@ -21,3 +21,6 @@ The `RWToolbarItem` Theme PLIST keys now offer a new “Parent” variation that
 As the new %navigation% tags are only available in RapidWeaver 6, to ensure that themes are only installed in versions of RapidWeaver that support this feature, RapidWeaver supports the .rapidweavertheme file extension *in addition to the legacy .rwtheme extension*.
 
 We strongly encourage themes to use the latest RapidWeaver Theme SDK conventions and features, and whilst RapidWeaver 6.x will support .rwtheme files this file format should be considered deprecated and may be removed in the longer term.
+
+##Installing & Organising Themes
+RapidWeaver 6 stores themes within the `Themes` sub-folder of the RapidWeaver 6 App Support. Themes from RapidWeaver 5 can be copied from RapidWeaver 5 during the first-run of RapidWeaver 6. They are copied to the Themes sub-folder, and any organisation folders from RW5 or earlier will be preserved as Collections in the new Addons Manager.
