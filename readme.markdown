@@ -17,7 +17,7 @@ RapidWeaver 6 introduces the ability for themes to offer split navigation.
 
 The `RWToolbarItem` Theme PLIST keys now offer a new “Parent” variation that allows you to specify the markup for the navigation menu when the page has subpages (i.e. is a parent page). For examples, check [this commit](https://github.com/realmacsoftware/RWThemeKit/commit/07ba4e71597fc82bdc1abfd8085820e4ca1a3f4d).
 
-The new `RWAddonManagerIconAsset` Theme.plist key should include the name of a 128 x 128 pixel image to display in the RapidWeaver 6 Addon Manager. You should include this image @2x and end the image name @2x so that it appears on retina displays.
+The new `RWAddonManagerIconAsset` Theme.plist key should include the name of a 128 x 128 pixel image to display in the RapidWeaver 6 Addon Manager. You should include this image @2x and end the image name @2x so that it appears on retina displays. The @2x variant does not need to be specified in the Theme.plist.
 
 ##Targeting RapidWeaver 6
 As the new %navigation% tags are only available in RapidWeaver 6, to ensure that themes are only installed in versions of RapidWeaver that support this feature, RapidWeaver supports the .rapidweavertheme file extension *in addition to the legacy .rwtheme extension*.
