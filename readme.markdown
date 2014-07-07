@@ -9,6 +9,10 @@ Starting in RapidWeaver 6, the `%toolbar%` key is considered deprecated. Instead
 
 The RWThemeAuthor key is deprecated, and you should use RWAddonAuthor for your Developer Name.
 
+##Behaviour Change
+
+To account for the new design of the Theme Variations window, RapidWeaver 6 will assume a Theme Variation Group Selection Limit of `0` if one has not been specified in the theme. All themes *must* specific a theme variation group selection limit.
+
 ##New Additions
 RapidWeaver 6 introduces the ability for themes to offer split navigation.
 
