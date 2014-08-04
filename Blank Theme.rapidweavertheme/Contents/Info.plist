@@ -5,7 +5,7 @@
 	<key>RWAddonAuthor</key>
 	<string>Realmac Software</string>
 	<key>RWAddonManagerIconAsset</key>
-	<string>addonIcon.png</string>
+	<string>addonIcon</string>
 	<key>RWAddonSupportURL</key>
 	<string>http://help.realmacsoftware.com</string>
 </dict>
