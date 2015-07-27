@@ -1088,50 +1088,5 @@ p.exif-user-comment {
 
 /* @end */
 
-/* @group JS-Kit Override */
-
-.js-singleCommentBodyT {
-	display: block;
-	padding-top: 17px !important;
-
-}
-
-.js-singleCommentHeader {
-	padding: 0 8px !important;
-}
-
-.js-OldComments,
-.js-commentFieldLabel,
-.js-pmFieldLabel,
-.js-singleCommentBody,
-.js-singleCommentKarmaComMod,
-.js-commentBodyLabel,
-.js-commentCmtTextarea,
-.js-commentAvatarArea,
-.js-OldCommentsWrap,
-.js-OldComments,
-.js-CreateCommentFieldsWrap,
-.js-CreateCommentFields,
-.js-commentCmtTextarea,
-.js-kit-comments div {
-	clear: none !important;
-}
-
-.js-singleCommentText {
-	display: block !important;
-	clear: both !important;
-}
-
-.js-kit-comments br {
-	display: none !important;
-}
-
-.js-singleCommentBody br {
-	display: block !important;
-}
-
-/* @end */
-
-
 
 /* @end */
