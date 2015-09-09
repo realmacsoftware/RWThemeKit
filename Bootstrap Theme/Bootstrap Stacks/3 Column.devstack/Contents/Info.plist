@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.realmacsoftware.stacks.3column</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>Realmac Software</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>https://www.realmacsoftware.com/support</string>
+	<key>SUFeedURL</key>
+	<string></string>
+	<key>author</key>
+	<string>Realmac Software</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>Hello World…</string>
+			<key>id</key>
+			<string>paragraph_id</string>
+			<key>title</key>
+			<string>Paragraph Text</string>
+			<key>toolTip</key>
+			<string>P tags will be placed around this text.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Realmac Software</string>
+	<key>helpURL</key>
+	<string>https://www.realmacsoftware.com/support</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>https://www.realmacsoftware.com/rapidweaver/stacks</string>
+	<key>subtitle</key>
+	<string>3 columns, because sometimes 2 just isn't enough.</string>
+	<key>tags</key>
+	<array>
+		<string>Development</string>
+		<string>Bootstrap</string>
+		<string>Content</string>
+	</array>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>3 Column</string>
+</dict>
+</plist>

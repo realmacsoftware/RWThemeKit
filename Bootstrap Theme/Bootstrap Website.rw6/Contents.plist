@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Creator</key>
+	<string>RapidWeaver</string>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>File References</key>
+				<dict>
+					<key>App Scope</key>
+					<false/>
+					<key>File References</key>
+					<array/>
+				</dict>
+				<key>Minimum Application Version</key>
+				<string>6.0</string>
+				<key>PublishingManifest</key>
+				<dict/>
+				<key>Site Resources</key>
+				<data>
+				YnBsaXN0MDDUAQIDBAUGUlNYJHZlcnNpb25YJG9iamVj
+				dHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcIExQVHyIp
+				LTE1OT1FSExQVSRudWxs0wkKCwwPEldOUy5rZXlzWk5T
+				Lm9iamVjdHNWJGNsYXNzog0OgAKAA6IQEYAEgAyAEFhk
+				YXRhYmFzZVRub2Rl1QsWFxgZGhscHR5eSWRlbnRpZmll
+				ciBNYXBYUGFnZSBNYXBYTm9kZSBNYXBZUmVzb3VyY2Vz
+				gAuAB4AKgAmABdIKCyAhoIAG0iMkJSZaJGNsYXNzbmFt
+				ZVgkY2xhc3Nlc1xOU011dGFibGVTZXSjJScoVU5TU2V0
+				WE5TT2JqZWN00wkKCyorLKCggAjSIyQuL18QE05TTXV0
+				YWJsZURpY3Rpb25hcnmjLjAoXE5TRGljdGlvbmFyedMJ
+				CgsyMyygoIAI0wkKCzY3LKCggAjSIyQ6O18QElJXUmVz
+				b3VyY2VEYXRhYmFzZaI8KF8QElJXUmVzb3VyY2VEYXRh
+				YmFzZdQLPj9AQUJDQ1hDaGlsZHJlblZQYXJlbnRfEBJS
+				ZXByZXNlbnRlZCBPYmplY3SAD4ANgACAANIKC0ZHoIAO
+				0iMkSUpeTlNNdXRhYmxlQXJyYXmjSUsoV05TQXJyYXnS
+				IyRNTl8QEFJXU291cmNlTGlzdE5vZGWiTyhfEBBSV1Nv
+				dXJjZUxpc3ROb2Rl0iMkMFGiMChfEA9OU0tleWVkQXJj
+				aGl2ZXLRVFVUcm9vdIABAAgAEQAaACMALQAyADcASwBR
+				AFgAYABrAHIAdQB3AHkAfAB+AIAAggCLAJAAmwCqALMA
+				vADGAMgAygDMAM4A0ADVANYA2ADdAOgA8QD+AQIBCAER
+				ARgBGQEaARwBIQE3ATsBSAFPAVABUQFTAVoBWwFcAV4B
+				YwF4AXsBkAGZAaIBqQG+AcABwgHEAcYBywHMAc4B0wHi
+				AeYB7gHzAgYCCQIcAiECJAI2AjkCPgAAAAAAAAIBAAAA
+				AAAAAFYAAAAAAAAAAAAAAAAAAAJA
+				</data>
+				<key>SiteAttributes</key>
+				<dict>
+					<key>AddCopyrightMailTo</key>
+					<true/>
+					<key>ConsolidateCSSFiles</key>
+					<true/>
+					<key>ConsolidateCommonFilesMode</key>
+					<integer>0</integer>
+					<key>ContactText</key>
+					<string>Contact Me</string>
+					<key>CopyrightText</key>
+					<string>© 2015 Daniel Counsell</string>
+					<key>CopyrightTextUsed</key>
+					<true/>
+					<key>CruftlessLinksEnabled</key>
+					<true/>
+					<key>DirectoryIndexFilenames</key>
+					<array>
+						<string>index.html</string>
+						<string>index.htm</string>
+						<string>index.php</string>
+					</array>
+					<key>EmailAddress</key>
+					<string>dancounsell@icloud.com</string>
+					<key>FavIconUsed</key>
+					<false/>
+					<key>LogoUsed</key>
+					<false/>
+					<key>ObfuscateEmailAddress</key>
+					<true/>
+					<key>PreviewAfterExportRelativeToBaseURL</key>
+					<false/>
+					<key>PublishingSettingsConfigured</key>
+					<false/>
+					<key>ShowBreadcrumbTrail</key>
+					<false/>
+					<key>ShowTidiedCode</key>
+					<false/>
+					<key>SloganText</key>
+					<string>Changing the world, one site at a time…</string>
+					<key>SloganUsed</key>
+					<true/>
+					<key>ThemeName</key>
+					<string>My Theme</string>
+					<key>TitleText</key>
+					<string>My Website</string>
+					<key>TitleTextUsed</key>
+					<true/>
+					<key>UserAgentResizingPreset</key>
+					<integer>0</integer>
+					<key>WantsXMLSiteMap</key>
+					<true/>
+					<key>WebClipIconUsed</key>
+					<false/>
+					<key>hasChangedGlobalCSS</key>
+					<false/>
+					<key>hasChangedGlobalHeader</key>
+					<false/>
+					<key>hasChangedGlobalJavascript</key>
+					<false/>
+					<key>hasChangedGlobalPrefix</key>
+					<false/>
+					<key>putGoogleAnalyticsInHead</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>DefaultPageAttributes</string>
+				<string>Pages</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>RapidWeaver Document</string>
+</dict>
+</plist>
