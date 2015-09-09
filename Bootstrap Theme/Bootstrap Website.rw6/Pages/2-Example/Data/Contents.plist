@@ -7,19 +7,18 @@
 		<dict>
 			<key>Dictionary</key>
 			<dict>
-				<key>HomePage</key>
-				<string>1-Home</string>
+				<key>ApplyThemeToPage</key>
+				<integer>1</integer>
 			</dict>
 			<key>Files</key>
-			<array/>
-			<key>Subsandwiches</key>
 			<array>
-				<string>1-Home</string>
-				<string>2-Example</string>
+				<string>Contents.html</string>
 			</array>
+			<key>Subsandwiches</key>
+			<array/>
 		</dict>
 	</array>
 	<key>Type</key>
-	<string>Pages</string>
+	<string>RapidWeaver HTML Code Data</string>
 </dict>
 </plist>

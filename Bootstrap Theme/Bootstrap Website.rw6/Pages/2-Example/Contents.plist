@@ -8,24 +8,22 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>CreatedDate</key>
-				<date>2015-09-01T12:17:19Z</date>
+				<date>2015-09-09T12:56:50Z</date>
 				<key>ID</key>
-				<string>page0</string>
+				<string>page1</string>
 				<key>MostRecentlySelectedStyleName</key>
 				<string>Theme Default</string>
 				<key>PageTitle</key>
-				<string>Untitled Page</string>
+				<string>Example</string>
 				<key>PluginClassName</key>
-				<string>YHStacksPlugin</string>
+				<string>RWHTMLPlugin</string>
 				<key>PluginMetadata</key>
 				<dict>
 					<key>Author</key>
-					<string>YourHead Software</string>
+					<string>Realmac Software</string>
 					<key>Name</key>
-					<string>Stacks</string>
+					<string>HTML Code</string>
 				</dict>
-				<key>PublishingManifest</key>
-				<dict/>
 			</dict>
 			<key>Files</key>
 			<array/>
