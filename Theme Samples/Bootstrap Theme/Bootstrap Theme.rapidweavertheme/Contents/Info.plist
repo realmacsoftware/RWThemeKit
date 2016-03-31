@@ -8,5 +8,7 @@
 	<string>addonIcon</string>
 	<key>RWAddonSupportURL</key>
 	<string>http://help.realmacsoftware.com</string>
+    <key>RWThemeIsResponsive</key>
+    <true/>
 </dict>
 </plist>
