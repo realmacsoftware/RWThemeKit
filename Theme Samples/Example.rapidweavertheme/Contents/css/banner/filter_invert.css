@@ -1,0 +1,3 @@
+.hero-background {
+    filter: invert(%banner_filter_amount%);
+}

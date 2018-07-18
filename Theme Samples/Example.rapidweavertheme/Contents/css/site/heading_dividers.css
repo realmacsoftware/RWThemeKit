@@ -1,0 +1,11 @@
+h1:after, 
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after,
+.album-title:after,
+.blog-entry-title:after {
+    display: block !important;
+    width: %headings_divider_width%;
+}

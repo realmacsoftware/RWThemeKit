@@ -1,0 +1,3 @@
+.hero-background {
+    filter: sepia(%banner_filter_amount%);
+}

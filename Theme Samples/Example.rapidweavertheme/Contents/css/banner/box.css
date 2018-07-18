@@ -1,0 +1,7 @@
+.hero-box {
+    display: block;
+}
+
+.content section:first-child {
+    padding-top: 250px;
+}

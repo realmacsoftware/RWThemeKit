@@ -1,0 +1,3 @@
+.hero-background {
+    filter: opacity(%banner_filter_amount%);
+}

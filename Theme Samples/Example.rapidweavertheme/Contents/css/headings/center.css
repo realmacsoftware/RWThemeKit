@@ -1,0 +1,17 @@
+h1, h2, h3, h4, h5, h6, .album-title, .blog-entry-title, .blog-entry-date, .album-description {
+    text-align: center;
+}
+
+h1:after,
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after,
+.album-title:after,
+.blog-entry-title:after,
+.filesharing-description {
+    margin-left: auto;
+    margin-right: auto;
+}
+

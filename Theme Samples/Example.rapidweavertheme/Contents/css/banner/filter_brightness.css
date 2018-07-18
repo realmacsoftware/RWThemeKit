@@ -1,0 +1,3 @@
+.hero-background {
+    filter: brightness(%banner_filter_amount%);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	%header%
+	%user_header%
+
+	<title>%title%</title>
+	<link rel="stylesheet" href="%pathto(css/main.css)%" />
+	<link rel="stylesheet" type="text/css" media="screen" href="%pathto(css/colourtag.css)%" />
+	%style_variations% %user_styles% %user_javascript% %plugin_header%
+</head>
+
+<!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
+
+<body>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="#">%logo% <span class="navbar-title">%site_title%</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+			 aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				%navigation%
+			</div>
+		</div>
+	</nav>
+
+	<header class="hero" id="hero">
+        <div class="hero-background"></div>
+		<div class="hero-overlay"></div>
+		<h1 class="hero-title">
+			%site_title%
+			<em>%site_slogan%</em>
+		</h1>
+	</header>
+
+	<div class="content">
+		<section class="main" style="position: relative;">
+			<div class="container">
+                <div class="row">
+                    <div class="col-sm-%content_width% main">
+                        %content%
+                    </div>
+
+                    <div class="col-sm-%sidebar_width% sidebar">
+                        <h2>%sidebar_title%</h2>
+                        %sidebar% %plugin_sidebar%
+                    </div>
+                </div>
+			</div>
+		</section>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					%top_navigation%
+					%footer%
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="%pathto(js/main.js)%"></script>
+</body>
+
+</html>

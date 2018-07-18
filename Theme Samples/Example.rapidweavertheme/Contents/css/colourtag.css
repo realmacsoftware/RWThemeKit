@@ -1,0 +1,114 @@
+body, .photo-background {
+	background-color: %colour_body_bg%;
+	color: %colour_body_text%;
+	font-size: %body_font_size%;
+}
+
+.sidebar {
+    color: %colour_sidebar_text%;
+}
+
+/* Primary Colour */
+a:link, a:visited {
+    color: %colour_primary%;
+}
+
+a:hover, a:active {
+    color: %colour_primary * 0.8%;
+}
+
+.btn-primary:link, .form-input-button {
+    color: #fff;
+    background-color: %colour_primary%;
+    border-color: %colour_primary%;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.form-input-button:hover,
+.form-input-button:active {
+    background-color: %colour_primary * 0.8%;
+    border-color: %colour_primary * 0.8%;
+}
+
+.thumbnail-caption,
+.footer-content a {
+	color: %colour_primary%;
+}
+
+.dropdown-menu .nav-item .nav-link:link {
+	color: %colour_body_text%;
+}
+
+.dropdown-menu .nav-item .nav-link:hover {
+	color: %colour_primary%;
+}
+
+.content:before {
+    transform: skewY(%banner_overlap_angle%);
+}
+
+h1, h2, h3, h4, h5, h6, .album-title, .blog-entry-title, blockquote {
+	color: %colour_headings%;
+}
+
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em,
+.album-title em,
+.blog-entry-title em {
+	color: %colour_primary%;
+}
+
+h1:after,
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after,
+.album-title:after,
+.blog-entry-title:after {
+	background-color: %colour_primary%;
+}
+
+/**********/
+/* Banner */
+/**********/
+.hero-title {
+	color: %colour_title%;
+}
+
+.hero-title em {
+	color: %colour_slogan%;
+}
+
+.hero-overlay {
+	background-color: %colour_banner_overlay%;
+}
+
+
+/* General Colors */
+.nav-link:link, .nav-link:visited {
+	color: %colour_nav_link%;
+}
+
+.nav-link:hover, .nav-link:active,
+.active .nav-link:link, .active .nav-link:visited {
+	color: %colour_nav_link_active%
+}
+
+.navbar-toggler-icon{
+	background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%colour_nav_link%' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer {
+    background-color: %colour_footer_bg%;
+}
+
+.footer,
+.footer a:link, .footer a:visited, .footer a:hover, .footer a:active  {
+    color: %colour_footer_text% !important;
+}
